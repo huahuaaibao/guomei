@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+.header{
+    height: 30px;
+    background-color: #F8F8F8;
+    overflow: hidden;
+    color: #A5A6A5;
+    font-size: 12px;
+        .left{
+            height: 30px;
+            width: 300px;
+            line-height: 30px;
+            float: left;
+            a{
+                float: left;
+                margin: 0 20px 0 10px;
+                position: relative;
+                color: #A5A6A5;
+               
+                div{
+                    width: 7px;
+                    height: 4px;
+                    top: 14px;
+                    right: -10px;
+                    background-position: -62px -433px;
+                }
+            }
+            p{
+                float: left;
+                margin-left: 10px;
+            }
+            span{
+                width: 100px;
+                color: red;
+                margin-left: 10px;
+                position: relative;
+                .xuebi{
+                    width: 12px;
+                    height: 13px;
+                    // position: absolute;
+                    background-position: -145px -1496px;
+                    right: -15px;
+                    top: -1px;
+                }
+            }
+    };
+    .right{
+        height: 30px;
+        width: 800px;
+        float: right;
+         ul{
+            float: right;
+            li{
+                line-height: 30px;
+                list-style: none;
+                float: left;
+                text-align: center;
+                margin: 0px 15px 0 15px;
+                position: relative;
+                .xuebi{
+                    top: 13px;
+                    right: -11px;
+                    background-position: -62px -433px;
+                    width: 7px;
+                    height: 4px;
+                }
+                .icon-kefu{
+                    color: red;
+                }  
+            }
+    }
+    }
+   
+
+}
