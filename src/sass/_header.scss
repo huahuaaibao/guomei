@@ -1,10 +1,10 @@
 @charset "utf-8";
-
+.container{
+    background-color: #F8F8F8;
+}
 .header{
     height: 30px;
-    background-color: #F8F8F8;
     overflow: hidden;
-    color: #A5A6A5;
     font-size: 12px;
         .left{
             height: 30px;
@@ -25,6 +25,7 @@
                     background-position: -62px -433px;
                 }
             }
+           
             p{
                 float: left;
                 margin-left: 10px;
@@ -37,19 +38,17 @@
                 .xuebi{
                     width: 12px;
                     height: 13px;
-                    // position: absolute;
-                    background-position: -145px -1496px;
                     right: -15px;
-                    top: -1px;
+                    top: 0px;
+                    font-size: 16px;
+                    background-position: -145px -1496px;
                 }
             }
     };
+
     .right{
         height: 30px;
-        width: 800px;
         float: right;
-         ul{
-            float: right;
             li{
                 line-height: 30px;
                 list-style: none;
@@ -66,9 +65,14 @@
                 }
                 .icon-kefu{
                     color: red;
-                }  
-            }
-    }
+                
+                }
+                svg{
+                    width: 10px;
+                    height: 10px;
+                    margin-right: 3px;
+                }
+        }
     }
    
 

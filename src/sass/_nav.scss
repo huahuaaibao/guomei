@@ -1,0 +1,35 @@
+.container{
+    background-color: #F8F8F8;
+}
+.nav{
+    height: 40px;
+    h2{
+        display: block;
+        width: 200px;
+        height: 40px;
+        color: #7E7E7E;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 40px;
+        background-color: #F2F2F2;
+        float: left;
+    }
+    ul{
+        float: left;
+        font-size: 15px;
+        color: #070E14;
+        li{
+            margin: 0 15px;
+            line-height: 40px;
+             a{
+           display: inline-block;
+           padding-right: 10px;
+           height: 12px;
+           line-height: 12px;
+           color: black;
+           border-right: 1px solid black;
+       }
+    }
+        }
+      
+}

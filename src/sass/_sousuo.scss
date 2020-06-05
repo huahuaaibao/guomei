@@ -1,0 +1,108 @@
+.sousuo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+height: 120px;
+    a{
+        display: block;
+        width: 200px;
+        height: 50px;
+        img{
+            width: 45%;
+            height: 100%;
+            display: inline-block;
+        }
+    }
+    .form{
+        width: 500px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   
+    form{
+        width: 400px;
+        height: 30px;
+        position: relative;
+        .xiala{
+            width: 20%;
+            height: 100%;
+            padding-left: 15px;
+            font-size: 16px;
+            float: left;
+            outline: none;
+            border:1px solid #DD00A7;
+        }
+        .ss{
+            width: 55%;
+            height: 100%;
+            float: left;
+            outline: none;
+            padding-left: 10px;
+            border:1px solid #DD00A7;
+            border-left: none;
+        }
+        svg{
+            position: absolute;
+            top: 3px;
+            right: 105px;
+            font-size: 24px;
+            color: #DD00A7;
+        }
+        button{
+            float: right;
+            height: 30px;
+            width: 25%;
+            font-size: 16px;
+            color: white;
+            background-color:#DD00A7 ;
+            border: #DD00A7;
+        }
+    }
+        li{
+            font-size: 12px;
+            margin: 0 5px;
+        }
+        li:first-of-type{
+            color: red;
+        }
+    
+}
+    .che{
+        width: 130px;
+        height: 20px;
+        background: url(../img/雪碧2.png) no-repeat;
+        background-position:-100px -701px ;
+        position: relative;
+        p{
+            position: absolute;
+            left: 35px;
+        }
+        .xinxi{
+            // display: inline-block;
+            width: 15px;
+            height: 15px;
+            background-color: #A5A5A5;
+            position: absolute;
+            top: -15px;
+            left:10px;
+            color: white;
+            text-align: center;
+            line-height: 15px;
+        }
+        .xuebi{
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: 4px dashed transparent;
+            border-color: #5E5E5E transparent transparent;
+            border-bottom: 0;
+            border-top-style: solid;
+            top: 8px;
+            right: 15px;
+            overflow: hidden;
+        }
+    }
+}

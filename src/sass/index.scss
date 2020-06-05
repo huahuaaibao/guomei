@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import "header";
+@import "_sousuo";
+@import "_nav";
+@import "_baner";
+// @import "_icon";
+@mixin banxin{
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+    color: #A5A6A5;
+}
+@mixin container {
+    width: 100vw;
+}
+@mixin  xuebi {
+    width: 8px;
+    height: 8px;
+    background: url(../img/雪碧2.png) no-repeat;
+    background-position: -62px -433px;
+    position: absolute
+}
+.container{
+    @include container();
+}
+.banxin{
+    @include banxin()
+}
+.xuebi{
+    @include xuebi()
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  li{
+      float: left;
+  }
