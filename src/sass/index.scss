@@ -1,25 +1,13 @@
 @charset "utf-8";
+@import "mixin";
+@import "_effect";  
 @import "header";
 @import "_sousuo";
 @import "_nav";
 @import "_baner";
-// @import "_icon";
-@mixin banxin{
-    width: 1200px;
-    margin: auto;
-    height: 100%;
-    color: #A5A6A5;
-}
-@mixin container {
-    width: 100vw;
-}
-@mixin  xuebi {
-    width: 8px;
-    height: 8px;
-    background: url(../img/雪碧2.png) no-repeat;
-    background-position: -62px -433px;
-    position: absolute
-}
+@import "_rob";
+@import "xuanran";
+
 .container{
     @include container();
 }
@@ -28,6 +16,9 @@
 }
 .xuebi{
     @include xuebi()
+}
+.xuebi1{
+    @include xuebi1()
 }
 .icon {
     width: 1em;
@@ -38,4 +29,7 @@
   }
   li{
       float: left;
+  }
+  body{
+      padding: 0 ; 
   }

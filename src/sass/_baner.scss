@@ -1,9 +1,9 @@
 .baner{
     position: relative;
     .bo{
-       position: absolute;
-       left: 200px;
-       top: 0;
+        position: absolute;
+        left: 200px;
+        top: 0;
         width: 750px;
         height: 450px;
         overflow: hidden;
@@ -16,7 +16,6 @@
         float: left;
         width: 750px;
         height: 450px;
-        // background-color: #F5004B;
         a{
             width: 750px;
             height: 450px;
@@ -29,26 +28,108 @@
        
         }
     }
+    .neirong{
+        width: 1000px;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 200px;
+        height: 450px;
+        display: none;
+        z-index: 999;
+        .one{
+            width: 100%;
+            height: 450px;
+            .left{
+                width: 790px;
+                height: 450px;
+                float: left;
+                background: #fbfbfb;
+                .title{
+                    width: 790px;
+                    ul{
+                        width: 790px;
+                    }
+                    a{
+                        float: left;
+                        white-space: nowrap;
+                        height: 20px;
+                        background: #f5004b;
+                        margin-right: 10px;
+                        padding: 0 5px;
+                        text-align: left;
+                        font-size: 12px;
+                        color: #fff;
+                        line-height: 20px;
+                        font-weight: 700;
+                        font-family: Arial,"Microsoft YaHei";
+                    } 
+                    .xuebi1{
+                        display: inline-block;
+                        margin-left: 6px;
+                        background-position: -70px -433px;
+                    }
+                }
+            }
+            .right{
+                width: 210px;
+                height: 100%;
+                float: left;
+                position: relative;
+                ul{
+                    height: 180px;
+                    padding-left: 10px;
+                    border-bottom: 1px solid #F4F4F4;
+                }
+                li{
+                    width: 70px;
+                    height: 35px;
+                    margin: 20px 20px 0 10px;
+                
+                }
+                .ad{
+                    width: 210px;
+                    height: 180px;
+                    position: absolute;
+                    bottom: 0px;
+                }
+                img{
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                    }
+            
+            }
+        }
+    }
+
     .tab{
         width: 200px;
         height: 450px; 
         background: #333;
         opacity: .4;
+        .active{
+            width: 200px;
+            background-color: white;
+            a{
+            color: black;
+            }
+        }
         h3{
             position: relative;
-            padding-left: 15px;
             height: 30px;
+            width: 180px;
             line-height: 30px;
-            width: 170px;
             white-space: nowrap;
             overflow: hidden;
+            margin-left: 15px;
             a{
                 color: #fff;
                 font-size: 14px;
                 font-family: 'Microsoft YaHei',arial;
                 font-weight: 200;
                 display: inline-block;
-                margin-right: 3px;
+                margin-right: 5px;
             }
         }
     }
@@ -120,7 +201,8 @@
         overflow: hidden;
     }
     .xinxi{
-        width: 250px;
+        // display: none;//结束时注释掉
+        width: 220px;
         height: 430px;
         background-color: white;
         opacity: .9;

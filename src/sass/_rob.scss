@@ -1,0 +1,161 @@
+.rob{
+    height: 252px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px !important;
+      .left{
+          width: 950px;
+          height: 252px;
+          border: 1px solid #E6E6E6;
+          border-top: 1px solid #F5004B;
+          position: relative;
+          overflow: hidden;
+           .l{
+              height: 42px;
+              width: 300px;
+              float: left;
+              overflow: hidden;
+              img{
+                  width: 40px;
+                  height: 40px;
+                  float: left;
+                  margin:1px 5px 1px 5px;
+                }
+                h3{
+                    color: #F5004B;
+                    line-height: 40px;
+                    width: 200px;
+                    margin: 0px;
+                    float: left;
+                    }
+          } 
+          .r{
+            float: right;
+            width: 200px;
+            height: 40px;
+            color: #F5004B;
+            margin-right: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+          padding: 0 10px;
+            span{
+              width: 27px;
+              height: 27px;
+              display: block;
+              border-radius: 5px;
+              background-color: #F5004B;
+              color: white;
+              font-size: 16px;
+              font-weight: bold;
+              text-align: center;
+              line-height: 27px;
+            }
+           pre{
+             font-weight: bold;
+             font-size: 16px;
+           }
+          } 
+          .ul{
+            width: 2000px;
+            height: 190px;
+            position: absolute;
+            left: 0;
+            top: 40px;
+          }
+          ul{
+            width: 950px;
+            height: 190px;
+            padding-top: 20px;
+            border-top: 1px solid #E6E6E6;
+         
+
+            li{    
+              width: 235px;
+              float: left;
+              height: 170px;
+              border-right: 1px  dashed #eee;
+              img{
+                height: 120px;
+                width: 120px;
+                margin-left: 58px;
+                }
+              .pirce{
+                margin: 6px 0 0 20px;
+                color: #ff0027 !important;
+                font-size: 20px;
+                font-weight: bold;
+              }  
+              span{
+                  color: #999;
+                  font-size: 12px;
+                  margin-left: 1px;
+                  text-decoration: line-through;
+                }
+              .xiangqing{
+                    margin: 0 0 0 20px;
+                    color: #5e5e5e;
+                    font-size: 12px;
+                    line-height: 18px;
+                    width: 196px;
+                    height: 18px;
+                    overflow: hidden;
+                  }
+            }
+            li:last-of-type{
+              border: none;
+            }
+
+          }
+            .ul1{
+            position: absolute;
+            left: 0;
+            top: 0px;
+            }
+            .ul2{
+            position: absolute;
+            left: 950px;
+            top: 0px;
+            }
+            .xiangzuo{
+              width: 24px;
+              height: 48px;
+              position: absolute;
+              top: 50%;
+              left: 0;
+              cursor: pointer;
+              display: none;
+              background-color: #E6E6E6;
+              background-position: -4px -178px;
+            }
+            .xiangyou{
+              width: 24px;
+              height: 48px;
+              position: absolute;
+              top: 50%;
+              right: 0;
+              display: none;
+              cursor: pointer;
+              background-color: #E6E6E6;
+              background-position:-33px -178px;
+            }
+
+
+      }
+    
+    
+    
+    .right{
+        width: 240px;
+        height: 100%;
+        background-color: palegoldenrod;  border: 1px solid #E6E6E6;
+        border-top: none;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+    }
+}

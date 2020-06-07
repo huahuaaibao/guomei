@@ -54,16 +54,12 @@
             $index = 1;
         }
 
-
-
         if ($index === -1) {
             $bannerul.css({
                 left: -$dianli.length * $liwidth - 200
             });
             $index = $dianli.length - 1;
         }
-
-
 
         if ($index === $dianli.length) {
             $dianli.eq(0).addClass('dian').siblings('.dian1 li').removeClass('dian')

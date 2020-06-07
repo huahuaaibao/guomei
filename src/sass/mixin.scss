@@ -1,0 +1,68 @@
+@charset "utf-8";
+@mixin banxin{
+    width: 1200px;
+    margin: auto;
+    color: #A5A6A5;
+}
+@mixin container {
+    width: 100%;
+}
+@mixin  xuebi {
+    width: 8px;
+    height: 8px;
+    background: url(../img/雪碧2.png) no-repeat;
+    background-position: -62px -433px;
+    position: absolute
+}
+@mixin  xuebi1 {
+    background: url(../img/雪碧.png) no-repeat;
+    position: absolute
+}
+@mixin   form{
+    width: 500px;
+    height: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .xiala{
+        width: 20%;
+        height: 100%;
+        padding-left: 15px;
+        float: left;
+        outline: none;
+        font-size: 14px;
+        color: #A5A5A5;
+        font-family: 'Microsoft YaHei';
+        border:1px solid #DD00A7;
+    }
+    .ss{
+        width: 55%;
+        height: 28px;
+        float: left;
+        outline: none;
+        padding-left: 10px;
+        border:1px solid #DD00A7;
+        border-left: none;
+        font-size: 14px;
+        color: #A5A5A5;
+        font-family: 'Microsoft YaHei';
+    }
+    svg{
+        position: absolute;
+        top: 3px;
+        right: 105px;
+        font-size: 24px;
+        color: #DD00A7;
+    }
+    button{
+        float: right;
+        height: 30px;
+        width: 25%;
+        font-size: 16px;
+        color: white;
+        background-color:#DD00A7 ;
+        border: #DD00A7;
+    }
+}

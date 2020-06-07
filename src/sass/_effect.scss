@@ -1,0 +1,123 @@
+//导航悬浮以及阶梯等效果
+@import "mixin";
+
+// 导航悬浮
+.stick {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background: #fff;
+    opacity: .9;
+    box-shadow: rgba(0, 0, 0, .2) 0 1px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: none;
+    z-index: 970;
+    form{
+        @include form();
+        margin: auto;
+    }
+    .stick_left{
+        width: 200px;
+        height: 38px;
+        float: left;
+        background: #f1f1f1;
+        position: relative;
+        p{
+            color: #585858;
+            font-family: 'Microsoft YaHei';
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 38px;
+            margin-left: 17px;
+        }
+        .xuebi{
+            width: 18px;
+            height: 12px;
+            position: absolute;
+            right: 17px;
+            top: 12px;
+            background-position: 0 -1344px;
+        }
+    }
+    }
+
+
+// 阶梯样式
+.jieti{
+    width: 66px;
+    z-index: 960;
+    position: fixed;
+    left: -1.5px;
+    top: 112.5px;
+    display: block;
+    .jieti_nav{
+        background: #f6f6f6;;
+        color: #5e5e5e;
+        font-size: 13px;
+        font-weight: 700;
+        height: 30px;
+        line-height: 31px;
+        text-align: center;
+        border: 1px solid #e6e6e6;
+    }
+    li{
+        width: 64px;
+        height: 43px;
+        font-size: 12px;
+        border-top: none;
+        cursor: pointer;
+        color: #5e5e5e;
+        border: 1px solid #e6e6e6;
+        border-top: none;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .sanjiao{
+            width: 10px;
+            height: 10px;
+            background-position:-152px 0;
+            z-index: 2;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .lou{
+            display: inline-block;
+            height: 12px;
+            color: #777;
+            cursor: pointer;
+            font-family: Arial,"Microsoft Yahei";
+        }
+        p{
+            height: 16px;
+            overflow: hidden;
+            cursor: pointer;
+            width: 48px;
+        }
+    }
+    .fl{
+        li{
+            height: 29px;
+            position: relative;
+        }
+        span{
+        width: 17px;
+        height: 9px;
+        display: inline-block;
+        background-position:  -216px -52px ;
+    }
+    .a2{
+        background-position: -216px 0;
+    }
+
+    }
+    
+    
+
+}

@@ -21,46 +21,10 @@ height: 120px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-   
-    form{
-        width: 400px;
-        height: 30px;
-        position: relative;
-        .xiala{
-            width: 20%;
-            height: 100%;
-            padding-left: 15px;
-            font-size: 16px;
-            float: left;
-            outline: none;
-            border:1px solid #DD00A7;
+        form{
+        @include form();
         }
-        .ss{
-            width: 55%;
-            height: 100%;
-            float: left;
-            outline: none;
-            padding-left: 10px;
-            border:1px solid #DD00A7;
-            border-left: none;
-        }
-        svg{
-            position: absolute;
-            top: 3px;
-            right: 105px;
-            font-size: 24px;
-            color: #DD00A7;
-        }
-        button{
-            float: right;
-            height: 30px;
-            width: 25%;
-            font-size: 16px;
-            color: white;
-            background-color:#DD00A7 ;
-            border: #DD00A7;
-        }
-    }
+
         li{
             font-size: 12px;
             margin: 0 5px;
@@ -81,7 +45,6 @@ height: 120px;
             left: 35px;
         }
         .xinxi{
-            // display: inline-block;
             width: 15px;
             height: 15px;
             background-color: #A5A5A5;
