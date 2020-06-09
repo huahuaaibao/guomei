@@ -14,13 +14,13 @@
     let $clonebox = $bannerli.first().clone(true.true);
 
 
-    // 获取一个里的宽度，然后设置ul的宽度
+    // 获取一个li的宽度，然后设置ul的宽度
     let $liwidth = $bannerli.eq(0).width();
     $bannerul.append($clonebox).css({
         width: $bannerul.children().length * $liwidth
     });
 
-    // 给轮播图标添加点击事件
+    // 给小圆点添加鼠标悬浮事件
     $dianli.hover(function () {
         $index = $(this).index() - 1;
         lunbo()

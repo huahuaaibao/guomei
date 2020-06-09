@@ -1,13 +1,14 @@
 !function ($) {
-    const $tabli = $(".tab li")
+    const $tabli = $(".banner_tab li")
     const $neirong = $(".neirong")
-    const $tab = $(".tab")
+    const $tab = $(".banner_tab")
     const $one = $(".one")
     const $baner = $(".baner")
 
+
     //设置鼠标移入动画
     $tabli.on('mouseover', function () {
-        $(this).addClass('active').siblings('.tab li').removeClass('active');
+        $(this).addClass('active').siblings('.banner_tab li').removeClass('active');
 
         //if语句判断滚轮是否超过内容板块的高度，再设置内容板块的高度
         if ($(window).scrollTop() > $baner.offset().top) {

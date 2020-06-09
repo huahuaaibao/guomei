@@ -18,7 +18,6 @@
     })
 
     // 设置鼠标点击左右箭头时，装ul的div的left值改变
-    console.log($uldiv.css('left'))
     $xiangzuo.on('click', function () {
         if ($uldiv.css("left") == '0px') {
             $uldiv.css({
