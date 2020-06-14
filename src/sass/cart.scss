@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+$width:1200px;
+$color:#005aaa;
+
+.cart_wrap{
+    // height: 500px;
+    color: #333333;
+        .shangp{
+            width: 1200px;
+            height: 37px;
+            margin: 0 auto;
+            font-size: 16px;
+            padding-top: 15px;
+        }
+        a{
+            cursor: pointer;
+        }
+        .cart_head{
+            width:$width ;
+            height:43px;
+            margin: 0 auto;
+            padding: 5px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f3f3f3;
+            color: #666;
+            border: 1px solid #f3f3f3;
+                .select{
+                    width: 260px;
+                    margin-left: 20px;
+                    
+                    .goods{
+                        float: right;
+                    }
+                }
+               
+                .carthead_right{
+                    width: 570px;
+                    line-height: 32px; 
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-right: 30px;
+                        p{
+                            float: left;
+                            margin: 0 30px;
+                        }         
+                }
+        }
+}
+
+.cartlist_item{
+    // position: relative;
+    .warp{
+        margin-bottom: 20px;
+        width: $width;
+        margin: 0 auto;
+        // position: absolute;
+        // top: -125px;
+        // padding:0 0 0 8px;
+        // display: none;
+
+    }
+
+}
+         .info {
+            width: $width;
+            border: 1px solid #f3f3f3;
+            margin-top: 25px;
+            position: relative;
+            ul:nth-child(1){
+                position: absolute;
+                top: -145px;
+            }
+                ul{
+                    width: 1140px;
+                    height: 145px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+            }
+
+            .info li {
+            overflow: hidden;
+            }
+
+            .info_2 {
+                // margin-left: -68px;
+                border: 1px solid #f3f3f3;
+                a{
+                    width: 200px;
+                    display: block;
+                }
+            }
+
+            .info_3 {
+            width: 208px;
+            height: 40px;
+            }
+            .info_6{
+                width: 100px;
+                height: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .info_6 input {
+                width: 30px;
+                // height: 18px;
+                text-align: center;
+                vertical-align: middle;
+                margin-left: -10px;
+            }
+            .info_5{
+                width: 80px;
+            }
+            .info_7{
+                width: 80px;
+            }
+
+            .but {
+                position: relative;
+                left: -10px;
+            }
+
+            .info_6 button {
+                width: 30px;
+                height: 18px;
+            }
+
+
+            .info a {
+                font-size: 12px;
+                color: #333333;
+            }
+
+            .balance {
+                width: $width;
+                height: 50px;
+                margin: auto;
+                border: 1px solid #f3f3f3;
+                margin-top: 20px;
+            }
+    
+            .balance li {
+                float: left;
+                line-height: 50px;
+            }
+    
+            .balance_ul2 {
+                float: right;
+                margin-right: 60px;
+                li{
+                    margin-right: 20px;
+                }
+            }
+    
+            .balance_ul2 span {
+                font-size: 16px;
+                color: #C91623;
+                font-weight: bold;
+            }
+    
+            .balance_ul2 button {
+                width: 100px;
+                height: 50px;
+                background-color: #c91623;
+                border: 1px solid #c91623;
+                font-weight: bold;
+                font-size: 18px;
+                color: white;
+            }
+    .balance_ul1{
+        margin-left: 20px;
+    }
+   

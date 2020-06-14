@@ -1,0 +1,298 @@
+.fdj{
+    height: 595px;
+    .fdj_l{
+        width: 358px;
+        height: 455px;
+        display: block;
+        z-index: 30;
+        position: relative;
+        float: left;
+        // overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .fdj_ximg{
+            width: 358px;
+            height: 358px;
+            position: relative;
+            border: 1px solid #D9D9D9;
+            img{
+                z-index: -2222;
+            }
+            .fdj_zoom{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: skyblue;
+            opacity: .3;
+            display: none;
+        }
+        }
+        
+        .fdj_box{
+            width: 420px;
+            height: 420px;
+            border: 1px solid #D9D9D9;
+            position: absolute;
+            top: -1px;
+            left: 360px;
+            display: none;
+            overflow: hidden;
+          img{
+              width: 750px;
+              height: 750px;
+              position: absolute;
+              top: 0;
+              left: 0;
+          }
+        }
+        .fdj_xul{
+            width: 358px;
+            height: 55px;
+            position: relative;
+            margin: 20px 0 16px;
+        .pic_btn{
+            width: 358px;
+            height: 55px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            span{
+                width: 10px;
+                height: 20px;
+                display: block;
+                position: absolute;
+                top: 15px;
+                z-index: 999;
+                background: url(https://css.gomein.net.cn/gmpro/2.0.0/item/1.12.50/css/i/bg-sprite.png?__sprite) no-repeat;
+            }
+            .fdj_btnl{
+                cursor: pointer;
+                left: 0;
+                background-position: 0 -834px;
+            }
+            .fdj_btnr{ 
+                cursor: pointer;
+                right: 0;
+                background-position: 0 -865px;
+            }
+        
+        }
+        .fdj_picul{
+            width: 320px;
+            height: 100%;
+            position: absolute;
+            left: 20px;
+            top: 0;
+            overflow: hidden;
+        
+            ul{
+                width: 54*10px;
+                position: absolute;
+                top: 0;
+                left: 0px;
+                li{
+                width: 53px;
+                height: 53px;
+                float: left;
+                text-align: center;
+                list-style: none;   
+                margin-right: 12px;
+            }
+
+        }
+        }
+      
+      
+        .border{
+            border: 1px solid red;
+        }
+
+
+        }
+        
+    }
+
+
+    .fdj_r{
+        width: 620px;
+        height: 455px;
+        margin: 0 0 0 30px;
+        float: left;
+        .fdj_title{
+            position: relative;
+            padding-bottom: 16px;
+            h1{
+                width: 480px;
+                font-size: 16px;
+                line-height: 26px;
+                color: #5e5e5e;
+                font-weight: 600;
+                padding-top: 5px;
+            }
+        }
+        .fdj_time{
+            width: 100%;
+            height: 38px;
+            background: url('https://gfs10.gomein.net.cn/T11hZvBvbj1RCvBVdK.png')no-repeat;
+            background-size: cover;
+            font: 'Microsoft YaHei';
+            color: #fff;
+            .naozhong{
+                width: 20px;
+                height: 20px;
+                float: left;
+                margin: 8px;
+                background: url('https://css.gomein.net.cn/gmpro/2.0.0/item/1.12.50/css/i/bg-sprite.png?__sprite');
+                background-position: 0 -3356px;
+            }
+           .fdj_guomei{
+                width: 68px;
+                font-size: 16px;
+                display: inline-block;
+                margin: 0 50px 0 0px;
+                line-height: 38px;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        } 
+        .fdj_timer{
+            width: 195px;
+            height: 38px;
+            float: right;
+            display: flex;
+            margin-right:50px ;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            span{
+                width: 27px;
+                height: 27px;
+                display: block;
+                border-radius: 5px;
+                background-color: plum;
+                color: white;
+                font-size: 16px;
+                font-weight: bold;
+                text-align: center;
+                line-height: 27px;
+                margin: 0;
+            }
+            pre{
+                font-weight: bold;
+                font-size: 16px;
+                margin: 0;
+              }
+              p{
+                  margin-right: 10px;
+              }
+        }
+        .fdj_price{
+            height: 65px;
+                background: #f6f6f6;
+        }
+       .fdj_prc{
+           width: 500px;
+            float: left;
+            padding: 20px 10px 0;
+            position: relative;
+            .price{
+                display: inline-block;
+                font-family: Arial;
+                font-size: 24px;
+                color: #e3101e;
+                font-weight: 700;
+                margin: 0 10px;
+                em{
+                    display: block;
+                    float: left;
+                    font-size: 16px;
+                    margin-right: 2px;
+                    font-style: normal;
+                }
+            }
+            del{
+                margin-right: 10px;
+                font-family: 'Microsoft YaHei';
+                color: #666;
+            }
+            .reduce{
+                line-height: 34px;
+                color: #069;
+            }
+            label{
+                color: #888;
+                float: left;margin-top: 5px;
+            }
+  
+       }
+       .fdj_prc_r{
+            height: 33px;
+            line-height: 12px;
+            float: right;
+            padding:20px 10px 0 0 ;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .fdj_line{
+                width: 15px;
+                font-size: 32px;
+                line-height: 32px;
+                color: #ccc;
+                margin-right: 3px;
+                font-family: '宋体';
+            }
+            a{
+                text-decoration: none;
+                cursor: pointer;
+                outline: 0;
+                font-weight: 400;
+                color: #069;
+                line-height: 12px;
+                font: 12px/12px arial,Microsoft YaHei;
+            }
+      
+       }
+       .fdj_cat{
+        min-height: 42px;
+        margin-bottom: 10px;
+        margin-top: 34px;
+        padding-left: 10px;
+        position: relative;
+        input{
+            width: 32px;
+            border: none;
+            display: block;
+            line-height: 38px;
+            text-align: center;
+            float: left;
+            height: 38px;
+            color: #5e5e5e;
+            border: 1px solid #ccc;
+        }
+        a{    
+            height: 24px;
+            background-color: #e3101e;
+            float: left;
+            text-decoration: none;
+            margin-right: 8px;
+            font: 18px/22px 'Microsoft Yahei';
+            color: #fff;
+            padding: 8px 25px;
+            margin-left: 10px;
+        }
+       }
+       .kong{
+           width: 100%;
+           height: 150px;
+       }
+
+        
+    }
+}

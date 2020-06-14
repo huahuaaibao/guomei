@@ -6,6 +6,7 @@
     height: 30px;
     overflow: hidden;
     font-size: 12px;
+    color: #888 !important;
         .left{
             height: 30px;
             width: 300px;
@@ -15,8 +16,6 @@
                 float: left;
                 margin: 0 20px 0 10px;
                 position: relative;
-                color: #A5A6A5;
-               
                 div{
                     width: 7px;
                     height: 4px;
@@ -30,16 +29,16 @@
                 float: left;
                 margin-left: 10px;
             }
-            span{
-                width: 100px;
+            .regist{
+                width: 55px;
                 color: red;
-                margin-left: 10px;
+                margin-left: 0px;
                 position: relative;
                 .xuebi{
                     width: 12px;
                     height: 13px;
-                    right: -15px;
-                    top: 0px;
+                    right: -10px;
+                    top: 8px;
                     font-size: 16px;
                     background-position: -145px -1496px;
                 }

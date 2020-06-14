@@ -80,6 +80,14 @@ gulp.task('uglifyjs', () => {
         .pipe(script()) //执行js压缩
         .pipe(gulp.dest('dist/jq'));
 });
+gulp.task('uglifyjs1', () => {
+    return gulp.src('src/thirdplugins/*.js')
+        .pipe(babel({ //先将es6转换成es5
+            presets: ['es2015'] //es2015->es6  es2016->es7...
+        }))
+        .pipe(script()) //执行js压缩
+        .pipe(gulp.dest('dist/thirdplugins'));
+});
 
 //7.图片压缩 - jpg/gif/bmp/webp/ [png] - imagemin
 gulp.task('uglifyimg', () => {

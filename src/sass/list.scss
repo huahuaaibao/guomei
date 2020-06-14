@@ -1,0 +1,163 @@
+.color{
+    width:100%;
+    background-color: #3236C1;
+}
+
+
+.page1{
+    height: 80px;
+    text-align: center;
+    background: linear-gradient(to bottom,rgb(231, 118, 25),red);
+    .list_nav{
+        width: 990px;
+        height: 100%;
+        position: relative;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .yincang{
+        width: 100px;
+        height: 80px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .play{
+        width: 400px;
+        height: 680px;
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: -150px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .yincang:hover{
+        .play{
+            display: block;
+        }
+    }
+}
+.list_banner{
+   height: 575px;
+   background-image: url('https://gfs6.gomein.net.cn/wireless/T1dlWmBvDT1RCvBVdK_1920_575.jpg');background-position: center top;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   .list_banner1{
+       width: 990px;
+       height: 100%;
+   }
+   img{
+       width: 100%;
+       height: 100%;
+       margin-left: -1px;
+   }
+}
+.xuanran1{
+    width: 996px;
+    .title{
+    height: 135px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    }
+  .paixu{
+      width: 300px;
+      height: 50px;
+      z-index: 9999;
+      cursor: pointer;
+    //   position: static;
+    //   top: 0;
+      li{
+        width: 30%;
+        border-radius: 5px;
+        font: 600 19px/38px "微软雅黑";
+        overflow: hidden;
+        color: #001E68;
+        background-image: linear-gradient(rgb(208, 211, 20),#001E68);
+      }
+
+  }
+  .pagelist{
+    width: 300px;
+    height: 38px;
+    text-align: center;
+    background: peachpuff;
+    margin: auto;
+    border-radius: 15px;
+    .jump-ipt{
+        width: 50px;
+        border: none;
+        border-radius: 5px;
+    }
+    a{
+        color: palevioletred;
+        font: 600 19px/38px "微软雅黑";
+        margin-left: 3px;
+    }
+    span{
+        color: #001E68;
+        font: 600 19px/38px "微软雅黑";
+        margin-left: 3px;
+    }
+  }
+    ul{
+        overflow: hidden;
+      li{
+        width: 325px;
+        height: 400px;
+        margin-right: 7px;
+        background: url(//gfs14.gomein.net.cn/T1qwCTBmdQ1RCvBVdK.png) 0 -15px no-repeat;
+        float: left;
+        text-align: center;
+        position: relative;
+        a{
+            display: block;
+        width: 100%;
+        height: 94%;
+        div{
+            width: 312px;
+            height: 232px;
+            margin: 8px auto 0;
+            background-color: #fff;
+            text-align: center;
+                img{
+                    width: 210px;
+                    height: 210px;
+                    position: relative;
+                    top: 11px;
+                    left: 51px;
+                }
+            }
+        h3{
+            width: 100%;
+            height: 38px;
+            font: 600 19px/38px "微软雅黑";
+            overflow: hidden;
+            color: #001E68;
+        }
+        h4{
+            width: 182px;
+            height: 26px;
+            margin-left: 10px;
+            font: bold 13px/26px "微软雅黑";
+            color: #001E68;
+            overflow: hidden;
+        }
+        span{
+            color: #fff;
+            font: 45px arial;
+            position: absolute;
+            bottom: 27px;
+            left: 34px;
+        }
+        }
+    }
+}
+  
+}

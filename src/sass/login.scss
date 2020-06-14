@@ -1,0 +1,320 @@
+.login{
+    height: 120px;
+    position: relative;
+}
+.welcome{
+    background: url(https://css.gomein.net.cn/images/regfront/register/loginlogo.png) no-repeat;
+    width: 300px;
+    height: 62px;
+    position: absolute;
+    top:30px;
+    a{
+        text-indent: -99px;
+        overflow: hidden;
+        display: block;
+    }
+}
+.yijian{
+    height: 16px;
+    color: #888;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    span{
+        display: inline-block;
+        margin-right: 8px;
+        padding-bottom: 2px;
+        width: 15px;
+        height: 16px;
+        background: url(https://css.gomein.net.cn/images/loginfront/login/login-bg-common.png) 0 -257px no-repeat;
+        vertical-align: middle;
+    }
+}
+.zhuyi{
+    background-color: #fff4e3;
+    border-top: 1px solid #fee6bc;
+    p{
+        width: 828px;
+        height: 29px;
+        padding-left: 10px;
+        margin: 0 auto;
+        background-color: #fff4e3;
+        color: #ff7f23;
+        font: 400 12px/29px "Microsoft Yahei";
+        a{
+            cursor: pointer;
+            color: #2875cc;
+        }
+    }
+    em{ 
+        background: url(https://css.gomein.net.cn/images/loginfront/login/login-bg-common.png) no-repeat;
+        background-position: -28px 0;
+        display: block;
+        float: left;
+        width: 16px;
+        height: 16px;
+        margin: 8px 5px 0 0;
+    }
+}
+.center{
+    height: 480px;
+    background: #fff1e8;
+    .beijing{
+        height: 480px;
+        background-position: top center;
+        background-image: url(https://gfs10.gomein.net.cn/T1ruLjBvd_1RCvBVdK.jpg);
+        }
+}
+.denglu{
+    width: 350px;
+    float: right;
+    margin-top: 24px;
+    margin-right: 105px;
+    position: relative;
+    background: #fff;
+    overflow: visible;
+    .loginhead{
+        height: 54px;
+        position: relative;
+        border-bottom: 1px solid #f4f4f4;
+        font: 500 18px "Microsoft Yahei";
+        text-align: center;
+        color: #5e5e5e;
+        div{
+            width: 174px;
+            position: absolute;
+            border-bottom: 1px solid #f4f4f4;
+            font: 500 18px "Microsoft Yahei";
+            text-align: center;
+            color: #5e5e5e;
+        }
+        a{
+            height: 18px;
+            position: absolute;
+            left: 0;
+            width: 99%;
+            text-decoration: none;
+            top: 16px;
+        }
+        .tableft{
+            left: 0;
+            a{
+                border-right: 1px solid #f4f4f4;
+            }
+        }
+        .tabright{
+            right: 0;
+        }
+        .cur{
+            color: #e3101e;
+        }
+    }
+    .loginbox{
+        min-height: 241px;
+        padding: 25px 11px 0 19px;
+        .login-wrap{
+            width: 300px;
+            position: relative;
+            padding: 5px 10px 0;
+        }
+        .left{
+            width: 320px;
+            color: #888;
+            padding-top: 0;
+            padding: 0 0 24px;
+             .left-box{
+            position: relative;
+            width: 320px;
+            height: 165px;
+            text-align: center;
+            .img-box{
+                float: left;
+                position: absolute;
+                left: 75px;
+                border: 1px solid #e6e6e6;
+                img{
+                    border: 0 none;
+                    vertical-align: inherit;
+                }
+            }
+        }
+        .shouji{
+            padding: 17px 0 0;    font-family: '瀹嬩綋';
+            color: #5e5e5e;
+            font-size: 12px;
+            text-align: center;
+            line-height: 14px;
+            a{
+                color: #ff5757;
+                font-family: "瀹嬩綋";
+            }
+        }
+        .saoyisao{
+            font-family: '瀹嬩綋';
+            color: #5e5e5e;
+            font-size: 12px;
+            text-align: center;
+            line-height: 14px;
+            margin-top: 5px;
+        }
+        .zhuce{
+            position: absolute;
+            bottom: 10px;
+            right: 14px;
+            width: 50px;
+            height: 18px;
+            color: #069;
+        }
+        }
+        .right{
+            .tips{
+                width: 290px;
+                height: 22px;
+                line-height: 22px;
+                font-family: simsun;
+                position: absolute;
+                top: -21px;
+                left: 11px;
+                // display: none;
+                z-index: 2;
+                background: #ffeede;
+                color: #ff8001;
+                em{
+                    width: 14px;
+                    height: 14px;
+                    overflow: hidden;
+                    margin: 4px 5px 0 10px;
+                    display: inline-block;
+                    background-image: url(https://css.gomein.net.cn/images/loginfront/login/login-bg-common.png);
+                    background-position: 0 -54px;
+                }
+            }
+            .login-name{
+                position: relative;
+                height: 52px;
+                z-index:11;
+                .tishi{
+                    position: absolute;
+                    left: 12px;
+                    top: 11px;
+                    color: #A5A5A5;
+                    font-size: 14px;
+                    z-index: 1;
+                    display: block;
+                    em{
+                        font-family: "Microsoft Yahei";
+                        font-style: normal;
+                    }
+                }
+                .txt{
+                    position: relative;
+                    padding: 8px 10px 7px;
+                    width: 268px;
+                    height: 25px;
+                    background: url(https://css.gomein.net.cn/images/loginfront/login/login-bg-common.png) no-repeat -500px 0 transparent;
+                    border: 1px solid #CCC;
+                    font-family: Arial,simsun;
+                    outline: 0 none;
+                    color: #333;
+                    font-size: 14px;
+                    line-height: 21px;
+                    z-index: 2;
+                    border-color: #A5A5A5;
+                }
+            }
+            .remember{
+                padding: 10px 0 12px;
+                overflow: hidden;
+                label {
+                    color: #5e5e5e;
+                }
+                .fl{
+                    float: left;
+                    input{
+                        float: left;
+                        margin-right: 4px;
+                        margin-top: 3px;
+                    }
+                }
+                .fr{
+                    width: 120px;
+                    float: right;
+                    span{
+                        color: #ccc;
+                        display: inline-block;
+                        margin: 0 8px;
+                    }
+               
+                }
+                 .mianfei{
+                    width: 48px;
+                    color: #2875cc;
+                }
+               
+            }
+            .btnnuw{
+                display: block;
+                width: 290px;
+                height: 42px;
+                background: #ff5757;
+                font: 500 18px/41px "Microsoft Yahei";
+                color: #fff;
+                text-align: center;
+                border: 0 none;
+                outline: 0;
+                word-spacing: 3px;
+                cursor: pointer;
+            }
+            .btnnuw:hover {
+                color: #fff;
+                text-decoration: none;
+                background: #f64949;
+            }
+            .kuaishu{
+                color: #2875cc;
+            }
+
+        }
+       
+    }
+
+    .croplogin{
+        overflow: hidden;
+        clear: both;
+        background-color: #fcfcfc;
+        padding: 9px 20px;
+        color: #a5a5a5;
+        position: relative;
+        border: 1px solid #f0f0f0;
+        a{
+            float: left;
+            white-space: nowrap;
+            cursor: pointer;
+            color: #5e5e5e;
+            padding: 0 8px;
+            margin: 6px 0;
+            font: 12px/1.5 Arial,simsun;
+            border-right: 1px solid #e6e6e6;
+        }
+        a:nth-last-child(){
+            border: none;
+        }
+        .more{
+            position: absolute;
+            width: 19px;
+            height: 19px;
+            padding: 0;
+            margin: 0;
+            top: 14px;
+            right: 20px;
+            background: url(https://css.gomein.net.cn/images/loginfront/login/login-bg-common.png) no-repeat;
+            background-position: 0 0;
+            border: none;
+        }
+        .active{
+            text-decoration: none;
+            background-position: 0 0px;
+        }
+    }
+
+}

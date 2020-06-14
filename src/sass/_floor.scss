@@ -123,19 +123,66 @@
     }
 
     // 楼层中间轮播图
-    .main{
+    .mainul{
         width: 990px;
         height: 470px;
         float: left;
         position: relative;
         overflow: hidden;
         background: #fff;
+.main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    .main_ul{
+        li{
+            width: 198px;
+            height: 235px;
+            float: left;
+            overflow: hidden;
+            a{
+                width: 197px;
+                height: 234px;
+                display: block;
+                border-right: 1px solid #eee;
+                border-bottom: 1px solid #eee;
+                overflow: hidden;
+                    img{
+                        display: block;
+                        width: 130px;
+                        height: 130px;
+                        margin: 20px 0 15px 34px;
+                    }
+            }
+            .p_name{
+                width: 157px;
+                height: 36px;
+                margin-left: 20px;
+                overflow: hidden;
+                line-height: 18px;
+                font-size: 12px;
+                color: #5e5e5e;
+            }
+            .p_price{
+                height: 20px;
+                line-height: 26px;
+                color: #ff0027;
+                font-size: 14px;
+                font-family: Arial,"Microsoft Yahei";
+            }
+        }
+        }
+    
+    }
+
         .mc_c{
             height: 470px;
             width: 389px;
-            float: left;
+            position: relative;
+            left: 0;
+            top: 0;
             overflow: hidden;
-            position: absolute;
             .slider{
                 height: 470px;
                 width: 389px;
@@ -185,7 +232,7 @@
             }
             .page{
                 display: block;
-                width: 100%;
+                width: 389px;
                 height: 60px;
                 position: absolute;
                 top: 50%;
@@ -248,7 +295,9 @@
         .mc_r{
             width: 601px;
             height: 470px;
-            float: right;
+            position: absolute;
+            top: 0;
+            left: 389px;
             overflow: hidden;
             ul{
                 width: 601px;

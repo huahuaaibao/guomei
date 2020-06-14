@@ -1,6 +1,8 @@
 !function ($) {
     const $r = $(".rob .r");
     const $span = $r.children('span');
+    const $timer = $(".fdj .fdj_timer");
+    const $span1 = $timer.children("span");
     setInterval(() => {
         //未来时间
         let weilai = new Date(2030, 0, 17, 18, 0, 0);
@@ -21,5 +23,8 @@
         $span.eq(0).html(hour);
         $span.eq(1).html(min);
         $span.eq(2).html(sec);
+        $span1.eq(0).html(hour);
+        $span1.eq(1).html(min);
+        $span1.eq(2).html(sec);
     }, 1000)
 }(jQuery)
